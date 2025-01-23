@@ -10,15 +10,19 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  justify-content: flex-start;
-  align-content: flex-start;
+  align-content: center;
+  padding-left: 10px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  margin-top: auto;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 20px;
+  justify-content: center;
 }
 
 .sidebar {
@@ -38,8 +42,8 @@ body {
 
 .content {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0;
+  flex: 1;
+  flex-grow: 1;
 }
 
 ul {
